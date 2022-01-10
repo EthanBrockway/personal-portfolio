@@ -62,33 +62,41 @@ section {
   background-size: cover;
   background-position: center;
   display: flex;
-  justify-content: start;
-  align-items: center;
+  justify-content: space-between;
+  align-items: left;
   flex-wrap: wrap;
   position: relative;
+  flex-direction: column;
 }
 .hero h2 {
   font-style: italic;
   font-size: 20px;
   color: var(--primary-color);
-  margin-top: 400px;
 }
 .profile {
   padding: 30px;
+  border-radius: 15px;
   border: 1px solid var(--primary-color);
-  width: auto;
+  width: 15%;
+  height: 80%;
 }
 .about {
   display: flex;
   flex-direction: column;
   text-align: center;
   flex-wrap: wrap;
-  border-bottom: 1px solid #fffdd0;
-  border-bottom-width: 50%;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.section-title {
+  font-size: 50px;
+  padding: 0px 60px 0px 60px;
+  border-bottom: 2px solid #fffdd0;
+  display: inline;
 }
 .step-text p {
+  padding: 10px 0 0 0;
   color: var(--secondary-color);
-  font-size: 15px;
+  font-size: 20px;
   margin-left: 30px;
 }
 
