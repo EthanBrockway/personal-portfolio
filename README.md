@@ -1,4 +1,5 @@
 # Personal Portfolio
+![screencapture-skronkie-github-io-personal-portfolio-2022-01-10-00_01_08](https://user-images.githubusercontent.com/95703604/148723953-f19bcdac-5f08-4ed9-a162-a33b07d97e2f.png)
 
 [Link to deployed application](https://skronkie.github.io/personal-portfolio/)
 
