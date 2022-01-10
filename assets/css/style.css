@@ -75,11 +75,12 @@ section {
   color: var(--primary-color);
 }
 .profile {
-  padding: 30px;
   border-radius: 15px;
   border: 1px solid var(--primary-color);
-  width: 15%;
+  width: 13%;
   height: 80%;
+  z-index: 50;
+  background-image: url("../images/profile-pic.jpg");
 }
 .about {
   display: flex;
@@ -181,7 +182,6 @@ section {
     margin-top: 350px;
   }
   .run-buddy-app {
-    align-items: center;
   }
   .step-text p {
     width: 85%;
@@ -194,6 +194,7 @@ section {
   }
 
   .container {
+    align-items: center;
     width: 100%;
   }
   .contact-info ul {
